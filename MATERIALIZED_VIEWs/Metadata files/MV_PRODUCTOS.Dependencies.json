@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "",
+    "name": "MV_PRODUCTOS",
+    "type": "TABLE"
+  },
+  {
+    "schema": "",
+    "name": "PRODUCTOS",
+    "type": "MATERIALIZED_VIEW_LOG"
+  },
+  {
+    "schema": "",
+    "name": "PRODUCTOS",
+    "type": "TABLE"
+  }
+]

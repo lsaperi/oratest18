@@ -1,0 +1,14 @@
+{
+  "Column": [],
+  "General": [
+    {
+      "INCLUDE_NEW_VALUES": "YES",
+      "MASTER": "PRODUCTOS",
+      "OBJECT_ID": "NO",
+      "PRIMARY_KEY": "YES",
+      "ROWIDS": "NO",
+      "SEQUENCE": "NO",
+      "TYPE": "MATERIALIZED_VIEW_LOG"
+    }
+  ]
+}

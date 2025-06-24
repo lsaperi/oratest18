@@ -1,0 +1,56 @@
+{
+  "General": [
+    {
+      "BUILD_MODE": "DEFERRED",
+      "DEFAULT_COLLATION": "USING_NLS_COMP",
+      "EVALUATION_EDITION": null,
+      "FAST_REFRESHABLE": "DIRLOAD_DML",
+      "IOT_TYPE": null,
+      "MVIEW_NAME": "MV_PRODUCTOS",
+      "ON_QUERY_COMPUTATION": "N",
+      "QUERY": "SELECT id, nombre, precio FROM productos",
+      "REFRESH_METHOD": "FAST",
+      "REFRESH_METHOD_KEY": null,
+      "REFRESH_MODE": "DEMAND",
+      "REWRITE_CAPABILITY": "GENERAL",
+      "REWRITE_ENABLED": "N",
+      "SEGMENT_CREATED": "YES",
+      "TYPE": "MATERIALIZED_VIEW",
+      "UNKNOWN_TRUSTED_FD": "N",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "USE_NO_INDEX": "N"
+    }
+  ],
+  "Table_Constraints": [
+    {
+      "BAD": null,
+      "Columns": [
+        {
+          "COLUMN_NAME": "ID",
+          "POSITION": 1.0,
+          "TABLE_NAME": "MV_PRODUCTOS"
+        }
+      ],
+      "CONSTRAINT_TYPE": "P",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "DELETE_RULE": null,
+      "GENERATED": "GENERATED NAME",
+      "GENERATED_CONSTRAINT_NAME": "DBM_P_ID",
+      "INDEX_NAME": "SYS_C0010196",
+      "INVALID": null,
+      "R_CONSTRAINT_NAME": null,
+      "RELY": null,
+      "RemoteConstraint": [],
+      "SEARCH_CONDITION": null,
+      "SEARCH_CONDITION_VC": null,
+      "STATUS": "ENABLED",
+      "TABLE_NAME": "MV_PRODUCTOS",
+      "TYPE": "MATERIALIZED_VIEW",
+      "VALIDATED": "VALIDATED",
+      "VIEW_RELATED": null
+    }
+  ],
+  "Table_Indexes": []
+}
